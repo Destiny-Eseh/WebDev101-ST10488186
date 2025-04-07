@@ -39,7 +39,7 @@ Urban Eats is a website for a restaurant based in Braamfontein, South Africa. Th
 ---
 
 ## Part 1 Details
-Part 1 includes the basic structure of the website: HTML pages.
+- Part 1 includes the basic structure of the website: HTML pages.
 ---
 
 ## Sitemap
