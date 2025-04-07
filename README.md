@@ -31,10 +31,13 @@ Urban Eats is a website for a restaurant based in Braamfontein, South Africa. Th
 ---
 
 ## Timeline 
-- **Week 1–2**: Planning and research  
-- **Week 3–4**: Designing layout and gathering content  
-- **Week 5–6**: HTML development  
-- **Week 7**: Final edits and upload to GitHub  
+- **25 March**: Submit two possible project topics to the lecturer for review.
+- **26 March**: Choose the final project topic after reading feedback.
+- **29 March**: Conduct in-depth research on the selected business or organization.
+- **01 April**: Start developing the website for the chosen organization using HTML.
+- **02 April**: Complete the project proposal and include screenshots of the website.
+- **06 April**: Create a GitHub account and compose an informative, well-structured README file.
+- **07 April**: Final submission of the project and accompanying documentation. 
 
 ---
 
@@ -52,7 +55,7 @@ Urban Eats is a website for a restaurant based in Braamfontein, South Africa. Th
 ---
 
 ## Changelog
-  
+
 
 ---
 
