@@ -3,7 +3,7 @@
 ## Student Information
 - **Name:** Destiny Irikefe Eseh  
 - **Student Number:** ST10488186  
-- **Institution:** The Independent Institute of Education  
+- **Institution:** Rosebank College Braamfontein | The Independent Institute of Education  
 - **Module:** WEDE5020 Web Development (Introduction)  
 
 ---
