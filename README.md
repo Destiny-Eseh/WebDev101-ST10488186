@@ -30,10 +30,10 @@ Urban Eats is a website for a restaurant based in Braamfontein, South Africa. Th
 
 ---
 
-## Timeline and Milestones
+## Timeline 
 - **Week 1–2**: Planning and research  
 - **Week 3–4**: Designing layout and gathering content  
-- **Week 5–6**: HTML/CSS development  
+- **Week 5–6**: HTML development  
 - **Week 7**: Final edits and upload to GitHub  
 
 ---
