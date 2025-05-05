@@ -1,10 +1,10 @@
 # Urban Eats Website
 
 ## Student Information
-- **Name:** Destiny Irikefe Eseh  
-- **Student Number:** ST10488186  
-- **Institution:** Rosebank College Braamfontein | The Independent Institute of Education  
-- **Module:** WEDE5020 Web Development (Introduction)  
+- **Name:** Destiny Irikefe Eseh
+- **Student Number:** ST10488186
+- **Institution:** Rosebank College Braamfontein | The Independent Institute of Education
+- **Module:** WEDE5020 Web Development (Introduction)
 
 ---
 
@@ -22,40 +22,47 @@ Urban Eats is a website for a restaurant based in Braamfontein, South Africa. Th
 ---
 
 ## Key Features and Functionality
-- **Home**: Brief intro and restaurant highlights  
-- **About Us**: Mission, story, and team  
-- **Services**: Details about catering, dining, and takeout  
-- **Gallery**: Food and event photography  
-- **Contact Us**: Address, contact form, and hours  
+- **Home**: Brief intro and restaurant highlights
+- **About Us**: Mission, story, and team
+- **Services**: Details about catering, dining, and takeout
+- **Gallery**: Food and event photography
+- **Contact Us**: Address, contact form, and hours
 
 ---
 
-## Timeline 
+## Timeline
 - **25 March**: Submit two possible project topics to the lecturer for review.
 - **26 March**: Choose the final project topic after reading feedback.
 - **29 March**: Conduct in-depth research on the selected business or organization.
 - **01 April**: Start developing the website for the chosen organization using HTML.
 - **02 April**: Complete the project proposal and include screenshots of the website.
 - **06 April**: Create a GitHub account and compose an informative, well-structured README file.
-- **07 April**: Final submission of the project and accompanying documentation. 
+- **01 May**: Begin adding CSS to the website for enhanced design and user experience.
+- **05 May**: Complete and submit Part 2 of the project, which includes the styled website.
+- **07 April**: Final submission of the project and accompanying documentation.
 
 ---
 
 ## Part 1 Details
-- Part 1 includes the basic structure of the website: HTML pages.
+- Part 1 includes the basic structure of the website using HTML.
+
+## Part 2 Details
+- Part 2 enhances the website's presentation and user experience by integrating CSS for styling. This includes improved layout, visual appeal, and responsive design, ensuring optimal viewing across various devices.
+
 ---
 
 ## Sitemap
-- Home  
-- About Us  
-- Services  
-- Gallery  
-- Contact Us  
+- Home
+- About Us
+- Services
+- Gallery
+- Contact Us
 
 ---
 
 ## Changelog
-
+- **02 April 2025**: Initial project proposal created.
+- **05 May 2025**: Added Part 2 details, reflecting the implementation of CSS for styling and design enhancements.
 
 ---
 
