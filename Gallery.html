@@ -4,41 +4,78 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Gallery</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
   </head>
   <body>
-    <header style="background: linear-gradient(to right, #add8e6, #b0e0e6)">
-      <center>
-        <img
-          src="Images\Urban Eats_Logo.png"
-          style="width: 200px; height: 100px"
-        />
-      </center>
-      <nav>
-        <nav>
-          <div style="text-align: center;"> <br><br><br>
-            <a href="home.html">Home</a>&nbsp; | &nbsp;
-            <a href="about us.html">About us</a>&nbsp; | &nbsp;
-            <a href="services.html">Services</a>&nbsp; | &nbsp;
-            <a href="gallery.html">Gallery</a>&nbsp; | &nbsp;
-            <a href="contact us.html">Contact us</a>&nbsp;
+    <header style="font-family: 'Poppins', sans-serif;">
+      <div class="header-container">
+        <a href="home.html" class="brand">
+          <img src="Images/Urban Eats_Black.jpeg" alt="Urban Eats Logo" style="height: 50px;" />
+        </a>
+        <nav class="navigation">
+          <div class="navigation-items">
+            <a class="active-link" href="home.html">Home</a>
+            <a href="about us.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact us.html">Contact Us</a>
           </div>
         </nav>
-    </header>
-    <main style="background: linear-gradient(to bottom, #f8f8f8, #ffffff)">
+      </div>
+    </header> 
+        <!-- Banner Section -->
+        <div class="banner-container">
+          <div class="banner-bg"></div>
+          <div class="banner-overlay">
+              <div class="banner-content">
+                  <h1 class="banner-title">Gallery</h1>
+              </div>
+          </div>
+      </div>
+      <!-- End of Banner Section -->
       <section>
-        <h2 style="text-align: center">Our Gallery</h2>
-        <img src="Images/Image 1.jpg" width="720px" height="900px" />
-        <figcaption>A delicious salad prepared with fresh ingredients.</figcaption>
-        <img src="Images/Image 2.jpeg" width="720px" height="900px" />
-        <figcaption>A filling meal for two, with chips and salad</figcaption>
-       <img src="Images/Image 4.jpg" width="720px" height="900px" />
-       <figcaption>Family meal with assorted meats and sides.</figcaption>
-      <img src="Images/Image 5.jpg" width="720px" height="900px" />
-      <figcaption>Ribs and macaroni on the side</figcaption>
+        <div class="signature-dishes-section">
+          <div class="title-section">
+              <h2>Our Signature Dishes</h2>
+          </div>
+          
+          <div class="food-items-container">
+              <div class="food-item">
+                  <div class="food-image" style="background-image: url('Images/Image 1.jpg');">
+                  </div>
+                  <div class="food-title">Jozi Garden Crunch</div>
+              </div>
+              
+              <div class="food-item">
+                  <div class="food-image" style="background-image: url('Images/Image 2.jpeg');">
+                  </div>
+                  <div class="food-title">Chow Pack Deluxe</div>
+              </div>
+              
+              <div class="food-item">
+                  <div class="food-image" style="background-image: url('Images/Image 4.jpg');">
+                  </div>
+                  <div class="food-title">Flavour Street Feast</div>
+              </div>
+          </div>
+      </div>
       </section>
     </main>
-    <center>
-      <footer>&copy;ST10488186</footer>
-    </center>
+    <footer>
+      <div class="footer-content">
+        <ul class="footer-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about us.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact us.html">Contact Us</a></li>
+        </ul>
+        <div class="copyright">
+          &copy; 2025 Urban Eats | Student Number: ST10488186
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

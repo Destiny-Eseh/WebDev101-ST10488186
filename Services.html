@@ -4,49 +4,111 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Services</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
   <body>
-    <header style="background: linear-gradient(to right, #add8e6, #b0e0e6)">
-      <center>
-        <img
-          src="Images\Urban Eats_Logo.png"
-          style="width: 200px; height: 100px"
-        />
-      </center>
-      <nav>
-        <nav>
-          <div style="text-align: center;"> <br><br><br>
-            <a href="home.html">Home</a>&nbsp; | &nbsp;
-            <a href="about us.html">About us</a>&nbsp; | &nbsp;
-            <a href="services.html">Services</a>&nbsp; | &nbsp;
-            <a href="gallery.html">Gallery</a>&nbsp; | &nbsp;
-            <a href="contact us.html">Contact us</a>&nbsp;
+    <header style="font-family: 'Poppins', sans-serif;">
+      <div class="header-container">
+        <a href="home.html" class="brand">
+          <img src="Images/Urban Eats_Black.jpeg" alt="Urban Eats Logo" style="height: 50px;" />
+        </a>
+        <nav class="navigation">
+          <div class="navigation-items">
+            <a class="active-link" href="home.html">Home</a>
+            <a href="about us.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact us.html">Contact Us</a>
           </div>
         </nav>
-    </header>
-    <main style="background: linear-gradient(to bottom, #f8f8f8, #ffffff)">
+      </div>
+    </header> 
+        <!-- Banner Section -->
+        <div class="banner-container">
+          <div class="banner-bg"></div>
+          <div class="banner-overlay">
+              <div class="banner-content">
+                  <h1 class="banner-title">Services</h1>
+              </div>
+          </div>
+      </div>
+      <!-- End of Banner Section -->
       <section>
-        <h2 style="text-align: center; margin-bottom: 30px">Our Services</h2>
-        <h3>Dine In Experience</h3>
-        <p>
-          Enjoy our vibrant atmosphere and savor our delicious meals in our cozy
-          restaurant. Perfect for casual lunches, dinners, or special occasions.
-        </p>
-        <h3>Takeaway Orders</h3>
-        <p>
-          Craving Urban Eats at home? Order your favorite dishes for takeaway
-          and enjoy them wherever you are.
-        </p>
-        <h3>Catering Services</h3>
-        <p>
-          Let us cater your next event! We offer a range of catering options to
-          suit your needs, from small gatherings to large parties. Contact us
-          for a custom quote.
-        </p>
+        <div class="ue-wrapper">
+          <div class="ue-section-title">
+              <h1>What We Offer</h1>
+          </div>
+
+          <div class="ue-features-grid">
+              <div class="ue-feature-item">
+                  <div class="ue-icon-box">
+                      <i class="fas fa-utensils ue-icon"></i>
+                  </div>
+                  <h3>Gourmet Dining</h3>
+                  <p>Experience our exceptional quality and innovative flavors crafted by our culinary genius, Chef Samuel Mokoena, who blends local and global flavors in each dish.</p>
+              </div>
+              
+              <div class="ue-feature-item">
+                  <div class="ue-icon-box">
+                      <i class="fas fa-coffee ue-icon"></i>
+                  </div>
+                  <h3>Specialty Beverages</h3>
+                  <p>Enjoy our carefully selected range of beverages prepared by our skilled baristas, perfect for complementing your meal or for a casual meetup.</p>
+              </div>
+              
+              <div class="ue-feature-item">
+                  <div class="ue-icon-box">
+                      <i class="fas fa-users ue-icon"></i>
+                  </div>
+                  <h3>Social Hub</h3>
+                  <p>More than just a restaurant, Urban Eats is a vibrant social hub designed for food lovers, creatives, and professionals looking for a space that fuels both appetites and ambitions.</p>
+              </div>
+          </div>
+
+          <div class="ue-features-grid ue-features-row">
+              <div class="ue-feature-item">
+                  <div class="ue-icon-box">
+                      <i class="fas fa-calendar-alt ue-icon"></i>
+                  </div>
+                  <h3>Event Hosting</h3>
+                  <p>Let us host your special occasions with our customizable event packages, offering the perfect setting for celebrations, business meetings, and social gatherings.</p>
+              </div>
+              
+              <div class="ue-feature-item">
+                  <div class="ue-icon-box">
+                      <i class="fas fa-leaf ue-icon"></i>
+                  </div>
+                  <h3>Sustainable Dining</h3>
+                  <p>We are committed to sustainability, using locally sourced, fresh ingredients and environmentally friendly practices in all aspects of our operation.</p>
+              </div>
+              
+              <div class="ue-feature-item">
+                  <div class="ue-icon-box">
+                      <i class="fas fa-music ue-icon"></i>
+                  </div>
+                  <h3>Live Entertainment</h3>
+                  <p>Enjoy regular live music performances and cultural events that showcase local talent and enhance your dining experience at Urban Eats.</p>
+              </div>
+          </div>
+      </div>
       </section>
     </main>
-    <center>
-      <footer>&copy;ST10488186</footer>
-    </center>
+    <footer>
+      <div class="footer-content">
+        <ul class="footer-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about us.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact us.html">Contact Us</a></li>
+        </ul>
+        <div class="copyright">
+          &copy; 2025 Urban Eats | Student Number: ST10488186
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
