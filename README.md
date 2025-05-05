@@ -23,10 +23,10 @@ Urban Eats is a website for a restaurant based in Braamfontein, South Africa. Th
 
 ## Key Features and Functionality
 - **Home**: Brief intro and restaurant highlights
-- **About Us**: Mission, story, and team
+- **About Us**: Restaurant story, key stats,
 - **Services**: Details about catering, dining, and takeout
-- **Gallery**: Food and event photography
-- **Contact Us**: Address, contact form, and hours
+- **Gallery**: Main food photography
+- **Contact Us**: Address, hours, and embedded map (iframe)
 
 ---
 
@@ -39,8 +39,7 @@ Urban Eats is a website for a restaurant based in Braamfontein, South Africa. Th
 - **06 April**: Create a GitHub account and compose an informative, well-structured README file.
 - **01 May**: Begin adding CSS to the website for enhanced design and user experience.
 - **05 May**: Complete and submit Part 2 of the project, which includes the styled website.
-- **07 April**: Final submission of the project and accompanying documentation.
-
+  
 ---
 
 ## Part 1 Details
@@ -63,7 +62,7 @@ Urban Eats is a website for a restaurant based in Braamfontein, South Africa. Th
 ## Changelog
 - **02 April 2025**: Initial project proposal created.
 - **05 May 2025**: Added Part 2 details, reflecting the implementation of CSS for styling and design enhancements.
-
+  
 ---
 
 ## 📚 References
@@ -77,3 +76,6 @@ https://www.miltonkeynes.co.uk/news/people/exciting-new-urban-food-marketto-open
 - Urban roots® brewing on Instagram: ‘at Urban Roots, our Smokehouse is bursting with all your favorite proteins-each one smoked to perfection. beef, pork,
 chicken, Turkey... why choose? try them all!’ (no date) Instagram. Available at:https://www.instagram.com/urbanrootsbeer/p/C41R_LqMXNC/ (Accessed: 05 April 2025).
 - User, G. (2021) Christmas Takeout Shop - Urban roots®: Craft Brewery & BBQSmokehouse: Sacramento, CA, Urban Roots® | Craft Brewery & BBQ Smokehouse | Sacramento, CA. Available at:https://www.urbanrootsbrewing.com/blog/2020/12/8/christmas-takeout-shop (Accessed: 05 April 2025).
+- Tan, J. (2019) A restaurant with a checkered floor and a long table. Unsplash. Available at: https://unsplash.com/photos/a-restaurant-with-a-checkered-floor-and-a-long-table-UDcpYKcXK34 (Accessed: 5 May 2025).
+- New Bedford Port Society. (n.d.) Team – The New Bedford Port Society - Seamen's Bethel. Available at: https://seamensbethel.org/team-element/ (Accessed: 5 May 2025).
+- Avans, M. (2020) Person pouring cream in a frying pan. Pexels. Available at: https://www.pexels.com/photo/person-pouring-cream-in-a-frying-pan-5056858/ (Accessed: 5 May 2025).
