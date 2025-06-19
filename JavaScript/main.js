@@ -54,3 +54,6 @@ document.addEventListener('DOMContentLoaded', function() {
     observer.observe(card);
   });
 });
+
+// Disable Right Click // 
+document.addEventListener("contextmenu", e => e.preventDefault());
