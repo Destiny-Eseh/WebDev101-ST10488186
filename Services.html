@@ -4,28 +4,69 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Services</title>
+    <meta name="description" content="Discover Urban Eats' premium services: gourmet dining by Chef Samuel Mokoena, specialty beverages, event hosting, live entertainment, and sustainable dining in Johannesburg.">
+    <meta name="keywords" content="gourmet dining, chef samuel mokoena, specialty beverages, event hosting, live entertainment, sustainable dining, johannesburg restaurant">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://urbaneats.co.za/services">
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Optimized icon loading -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="JavaScript/main.js" defer></script>
   </head>
   <body>
-    <header style="font-family: 'Poppins', sans-serif;">
-      <div class="header-container">
-        <a href="home.html" class="brand">
-          <img src="Images/Urban Eats_Black.jpeg" alt="Urban Eats Logo" style="height: 50px;" />
-        </a>
-        <nav class="navigation">
-          <div class="navigation-items">
-            <a class="active-link" href="home.html">Home</a>
-            <a href="about us.html">About Us</a>
-            <a href="services.html">Services</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="contact us.html">Contact Us</a>
-          </div>
-        </nav>
-      </div>
-    </header> 
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <div class="header-container">
+      <a href="home.html" class="brand">
+        <img src="Images/Urban Eats_Black.jpeg" alt="Urban Eats Logo" />
+      </a>
+      
+      <!-- Desktop Navigation -->
+      <nav class="desktop-navigation">
+        <a class="active-link" href="home.html">Home</a>
+        <a href="about us.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact us.html">Contact Us</a>
+      </nav>
+
+      <!-- Mobile Menu Button -->
+      <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
+        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#fff">
+          <path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22-7.13-17.9-7.13H165.13Z"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Sidebar Navigation -->
+  <nav id="navbar">
+    <ul>
+      <li>
+        <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar">
+          <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#333">
+            <path d="m480-444.62-209.69 209.7q-7.23 7.23-17.5 7.42-10.27.19-17.89-7.42-7.61-7.62-7.61-17.7 0-10.07 7.61-17.69L444.62-480l-209.7-209.69q-7.23-7.23-7.42-17.5-.19-10.27 7.42-17.89 7.62-7.61 17.7-7.61 10.07 0 17.69 7.61L480-515.38l209.69-209.7q7.23-7.23 17.5-7.42 10.27-.19 17.89 7.42 7.61 7.62 7.61 17.7 0 10.07-7.61 17.69L515.38-480l209.7 209.69q7.23 7.23 7.42 17.5.19 10.27-7.42 17.89-7.62 7.61-17.7 7.61-10.07 0-17.69-7.61L480-444.62Z"/>
+          </svg>
+        </button>
+      </li>
+      <li><a class="active-link" aria-current="page" href="home.html">Home</a></li>
+      <li><a href="about us.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact us.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  
+  <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
+   
         <!-- Banner Section -->
         <div class="banner-container">
           <div class="banner-bg"></div>
@@ -36,65 +77,65 @@
           </div>
       </div>
       <!-- End of Banner Section -->
+      
       <section>
         <div class="ue-wrapper">
           <div class="ue-section-title">
-              <h1>What We Offer</h1>
+            <h1>What We Offer</h1>
           </div>
-
+      
           <div class="ue-features-grid">
-              <div class="ue-feature-item">
-                  <div class="ue-icon-box">
-                      <i class="fas fa-utensils ue-icon"></i>
-                  </div>
-                  <h3>Gourmet Dining</h3>
-                  <p>Experience our exceptional quality and innovative flavors crafted by our culinary genius, Chef Samuel Mokoena, who blends local and global flavors in each dish.</p>
+            <div class="ue-feature-item">
+              <div class="ue-icon-box">
+                <i class="fas fa-utensils ue-icon"></i>
               </div>
-              
-              <div class="ue-feature-item">
-                  <div class="ue-icon-box">
-                      <i class="fas fa-coffee ue-icon"></i>
-                  </div>
-                  <h3>Specialty Beverages</h3>
-                  <p>Enjoy our carefully selected range of beverages prepared by our skilled baristas, perfect for complementing your meal or for a casual meetup.</p>
+              <h3>Gourmet Dining</h3>
+              <p>Experience our exceptional quality and innovative flavors crafted by our culinary genius, Chef Samuel Mokoena, who blends local and global flavors in each dish.</p>
+            </div>
+            
+            <div class="ue-feature-item">
+              <div class="ue-icon-box">
+                <i class="fas fa-coffee ue-icon"></i>
               </div>
-              
-              <div class="ue-feature-item">
-                  <div class="ue-icon-box">
-                      <i class="fas fa-users ue-icon"></i>
-                  </div>
-                  <h3>Social Hub</h3>
-                  <p>More than just a restaurant, Urban Eats is a vibrant social hub designed for food lovers, creatives, and professionals looking for a space that fuels both appetites and ambitions.</p>
+              <h3>Specialty Beverages</h3>
+              <p>Enjoy our carefully selected range of beverages prepared by our skilled baristas, perfect for complementing your meal or for a casual meetup.</p>
+            </div>
+            
+            <div class="ue-feature-item">
+              <div class="ue-icon-box">
+                <i class="fas fa-users ue-icon"></i>
               </div>
+              <h3>Social Hub</h3>
+              <p>More than just a restaurant, Urban Eats is a vibrant social hub designed for food lovers, creatives, and professionals looking for a space that fuels both appetites and ambitions.</p>
+            </div>
+      
+            <div class="ue-feature-item">
+              <div class="ue-icon-box">
+                <i class="fas fa-calendar-alt ue-icon"></i>
+              </div>
+              <h3>Event Hosting</h3>
+              <p>Let us host your special occasions with our customizable event packages, offering the perfect setting for celebrations, business meetings, and social gatherings.</p>
+            </div>
+            
+            <div class="ue-feature-item">
+              <div class="ue-icon-box">
+                <i class="fas fa-leaf ue-icon"></i>
+              </div>
+              <h3>Sustainable Dining</h3>
+              <p>We are committed to sustainability, using locally sourced, fresh ingredients and environmentally friendly practices in all aspects of our operation.</p>
+            </div>
+            
+            <div class="ue-feature-item">
+              <div class="ue-icon-box">
+                <i class="fas fa-music ue-icon"></i>
+              </div>
+              <h3>Live Entertainment</h3>
+              <p>Enjoy regular live music performances and cultural events that showcase local talent and enhance your dining experience at Urban Eats.</p>
+            </div>
           </div>
-
-          <div class="ue-features-grid ue-features-row">
-              <div class="ue-feature-item">
-                  <div class="ue-icon-box">
-                      <i class="fas fa-calendar-alt ue-icon"></i>
-                  </div>
-                  <h3>Event Hosting</h3>
-                  <p>Let us host your special occasions with our customizable event packages, offering the perfect setting for celebrations, business meetings, and social gatherings.</p>
-              </div>
-              
-              <div class="ue-feature-item">
-                  <div class="ue-icon-box">
-                      <i class="fas fa-leaf ue-icon"></i>
-                  </div>
-                  <h3>Sustainable Dining</h3>
-                  <p>We are committed to sustainability, using locally sourced, fresh ingredients and environmentally friendly practices in all aspects of our operation.</p>
-              </div>
-              
-              <div class="ue-feature-item">
-                  <div class="ue-icon-box">
-                      <i class="fas fa-music ue-icon"></i>
-                  </div>
-                  <h3>Live Entertainment</h3>
-                  <p>Enjoy regular live music performances and cultural events that showcase local talent and enhance your dining experience at Urban Eats.</p>
-              </div>
-          </div>
-      </div>
+        </div>
       </section>
+
     </main>
     <footer>
       <div class="footer-content">

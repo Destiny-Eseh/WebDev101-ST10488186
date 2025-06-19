@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://destiny-eseh.github.io/WebDev101-ST10488186/Home.html</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://destiny-eseh.github.io/WebDev101-ST10488186/About us.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://destiny-eseh.github.io/WebDev101-ST10488186/Contact us.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://destiny-eseh.github.io/WebDev101-ST10488186/Gallery.html</loc>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://destiny-eseh.github.io/WebDev101-ST10488186/Services.html</loc>
+    <priority>0.70</priority>
+  </url>
+
+</urlset>
