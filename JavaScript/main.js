@@ -57,3 +57,45 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Disable Right Click // 
 document.addEventListener("contextmenu", e => e.preventDefault());
+
+// JS for Validation and AJAX //
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("enquiryForm");
+  const formMsg = document.getElementById("form-msg");
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+    formMsg.style.color = "#ff6b35";
+    formMsg.textContent = "Sending...";
+
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch(form.action, {
+        method: "POST",
+        body: formData,
+        headers: {
+          Accept: "application/json"
+        }
+      });
+
+      if (response.ok) {
+        formMsg.style.color = "green";
+        formMsg.textContent = "✅ Enquiry sent successfully!";
+        form.reset();
+      } else {
+        const data = await response.json();
+        if (data.errors) {
+          formMsg.style.color = "red";
+          formMsg.textContent = data.errors.map(err => err.message).join(", ");
+        } else {
+          formMsg.style.color = "red";
+          formMsg.textContent = "Something went wrong. Please try again.";
+        }
+      }
+    } catch (err) {
+      formMsg.style.color = "red";
+      formMsg.textContent = "Network error. Please check your connection.";
+    }
+  });
+});
