@@ -23,10 +23,11 @@ Urban Eats is a website for a restaurant based in Braamfontein, South Africa. Th
 
 ## Key Features and Functionality
 - **Home**: Brief intro and restaurant highlights
-- **About Us**: Restaurant story, key stats,
+- **About Us**: Restaurant story, key stats
 - **Services**: Details about catering, dining, and takeout
 - **Gallery**: Main food photography
 - **Contact Us**: Address, hours, and embedded map (iframe)
+- **Enquire Page**: A working contact form powered by Formspree
 
 ---
 
@@ -39,7 +40,8 @@ Urban Eats is a website for a restaurant based in Braamfontein, South Africa. Th
 - **06 April**: Create a GitHub account and compose an informative, well-structured README file.
 - **01 May**: Begin adding CSS to the website for enhanced design and user experience.
 - **05 May**: Complete and submit Part 2 of the project, which includes the styled website.
-  
+- **20 June**: Complete final phase with SEO, favicon, JavaScript enhancements, and functional contact form integration.
+
 ---
 
 ## Part 1 Details
@@ -48,6 +50,14 @@ Urban Eats is a website for a restaurant based in Braamfontein, South Africa. Th
 ## Part 2 Details
 - Part 2 enhances the website's presentation and user experience by integrating CSS for styling. This includes improved layout, visual appeal, and responsive design, ensuring optimal viewing across various devices.
 
+## Part 3 (Final Part) Details
+- Added **SEO optimizations** using meta tags and relevant keywords.
+- Included a **favicon** named *urban eats.jpg* located in the images folder.
+- Added **JavaScript functionality** for interactivity (e.g. form validation or dynamic features).
+- Created a new **Enquire page** with a **working contact form** integrated via Formspree at [https://formspree.io/f/mwpbqgpy](https://formspree.io/f/mwpbqgpy).
+- Added a **robots.txt** file to guide search engine indexing.
+- Created and linked a **sitemap.xml** to improve website SEO structure.
+
 ---
 
 ## Sitemap
@@ -55,6 +65,7 @@ Urban Eats is a website for a restaurant based in Braamfontein, South Africa. Th
 - About Us
 - Services
 - Gallery
+- Enquire
 - Contact Us
 
 ---
@@ -62,7 +73,13 @@ Urban Eats is a website for a restaurant based in Braamfontein, South Africa. Th
 ## Changelog
 - **02 April 2025**: Initial project proposal created.
 - **05 May 2025**: Added Part 2 details, reflecting the implementation of CSS for styling and design enhancements.
-  
+- **20 June 2025**: Final project changes completed for Part 3:
+  - Implemented SEO optimizations with meta tags
+  - Added a favicon to the site
+  - Added JavaScript functionality
+  - Added an Enquire page with Formspree integration
+  - Created and configured robots.txt and sitemap.xml
+
 ---
 
 ## 📚 References
